@@ -9,9 +9,7 @@ export default function (recipe, currentRecipeId = 0)
         <h4 class="preview__title">${recipe.title}</h4>
         <p class="preview__publisher">${recipe.publisher}</p>
         <div class="preview__user-generated">
-          <svg>
-            <use href="./src/img/icons.svg#icon-user"></use>
-          </svg>
+        <i class="fa-regular fa-user"></i>
         </div>
       </div>
     </a>

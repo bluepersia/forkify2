@@ -77,42 +77,30 @@ export default class Recipe
   
           <div class="recipe__details">
             <div class="recipe__info">
-              <svg class="recipe__info-icon">
-                <use href="./src/img/icons.svg#icon-clock"></use>
-              </svg>
+            <i class="fa-regular fa-clock icon-left"></i>
               <span class="recipe__info-data recipe__info-data--minutes">${cooking_time.toFixed()}</span>
               <span class="recipe__info-text">minutes</span>
             </div>
             <div class="recipe__info">
-              <svg class="recipe__info-icon">
-                <use href="./src/img/icons.svg#icon-users"></use>
-              </svg>
+            <i class="fa-solid fa-users icon-left"></i>
               <span class="recipe__info-data recipe__info-data--people">${servings}</span>
               <span class="recipe__info-text">servings</span>
   
               <div class="recipe__info-buttons">
                 ${this.state.recipe.servings > 1 ? `<button class="btn--tiny btn--decrease-servings">
-                  <svg>
-                    <use href="src/img/icons.svg#icon-minus-circle"></use>
-                  </svg>
+                <i class="fa-solid fa-circle-minus servings-btn"></i>
                 </button>` : ''}
                 ${this.state.recipe.servings < 8 ? `<button class="btn--tiny btn--increase-servings">
-                  <svg>
-                    <use href="src/img/icons.svg#icon-plus-circle"></use>
-                  </svg>
+                <i class="fa-solid fa-circle-plus servings-btn"></i>
                 </button>` : ''}
               </div>
             </div>
   
             <div class="recipe__user-generated">
-              <svg>
-                <use href="./src/img/icons.svg#icon-user"></use>
-              </svg>
+            <i class="fa-regular fa-user main-user-icon"></i>
             </div>
             <button class="btn--round bookmark-btn">
-              <svg class="">
-                <use href="./src/img/icons.svg#icon-bookmark-fill"></use>
-              </svg>
+            <i class="fa-solid fa-bookmark bookmark-icon"></i>
             </button>
           </div>
   
