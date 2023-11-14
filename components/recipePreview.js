@@ -10,7 +10,7 @@ export default function (recipe, currentRecipeId = 0)
         <p class="preview__publisher">${recipe.publisher}</p>
         <div class="preview__user-generated">
           <svg>
-            <use href="src/img/icons.svg#icon-user"></use>
+            <use href="./src/img/icons.svg#icon-user"></use>
           </svg>
         </div>
       </div>

@@ -78,14 +78,14 @@ export default class Recipe
           <div class="recipe__details">
             <div class="recipe__info">
               <svg class="recipe__info-icon">
-                <use href="src/img/icons.svg#icon-clock"></use>
+                <use href="./src/img/icons.svg#icon-clock"></use>
               </svg>
               <span class="recipe__info-data recipe__info-data--minutes">${cooking_time.toFixed()}</span>
               <span class="recipe__info-text">minutes</span>
             </div>
             <div class="recipe__info">
               <svg class="recipe__info-icon">
-                <use href="src/img/icons.svg#icon-users"></use>
+                <use href="./src/img/icons.svg#icon-users"></use>
               </svg>
               <span class="recipe__info-data recipe__info-data--people">${servings}</span>
               <span class="recipe__info-text">servings</span>
@@ -106,12 +106,12 @@ export default class Recipe
   
             <div class="recipe__user-generated">
               <svg>
-                <use href="src/img/icons.svg#icon-user"></use>
+                <use href="./src/img/icons.svg#icon-user"></use>
               </svg>
             </div>
             <button class="btn--round bookmark-btn">
               <svg class="">
-                <use href="src/img/icons.svg#icon-bookmark-fill"></use>
+                <use href="./src/img/icons.svg#icon-bookmark-fill"></use>
               </svg>
             </button>
           </div>
